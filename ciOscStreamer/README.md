@@ -1,0 +1,2 @@
+- `ciOscStreamer` is a simple OSC server that sends an integer data every 1/1000th second in a seperate thread from OpenGL.
+- First run the `ciOscStreamerApp` to send the data to `localhost:3000`, and then in shell run `$ nc -lu [ip_address] 3000` to receive OSC data.
